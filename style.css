@@ -1,129 +1,129 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 16px;
-    background-color: #fefefa;
-    color: #36454f;
+  font-family: 'Hanken Grotesk', serif;
+  font-size: 16px;
+  background-color: #fefefa;
+  color: #36454f;
 }
 
 header h1 {
-    font-size: 2.25em;
-    margin: 0.5em 0.5em 0 0.5em;
+  font-size: 2.25em;
+  margin: 0.5em 0.5em 0 0.5em;
 }
 
 h1 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 1.5em 0.5em;
-    padding: 0 0.75em;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 1.5em 0.5em;
+  padding: 0 0.75em;
 }
 
 p + p {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-    color: rgb(164, 164, 164);
-    cursor: pointer;
+  color: rgb(164, 164, 164);
+  cursor: pointer;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .col {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .main-container {
-    max-width: 1000px;
-    width: 100%;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .main-image {
-    margin: 1.2em;
-    width: 275px;
-    height: 350px;
+  margin: 1.2em;
+  width: 275px;
+  height: 350px;
 }
 
 .main-copy {
-    max-width: 380px;
-    width: 100%;
+  max-width: 360px;
+  width: 50%;
 }
 
 .contact {
-    margin: 1em 1em;
-    font-size: 1.1em;
+  margin: 1em 1em;
+  font-size: 0.7em;
 }
 
 .playlist {
-    margin-left: 18px;
+  margin-left: 18px;
 }
 
 @media only screen and (min-width: 550px) {
-    .main-container {
-        display: flex;
-    }
+  .main-container {
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 750px) {
-    header h1 {
-        font-size: 3.15em;
-        margin: 0.75em 1em;
-    }
+  header h1 {
+    font-size: 3.15em;
+    margin: 0.75em 1em;
+  }
 
-    .main-container {
-        margin-top: 2em;
-        margin-left: 1.75em;
-    }
+  .main-container {
+    margin-top: 2em;
+    margin-left: 1.75em;
+  }
 
-    .main-image {
-        width: 400px;
-        height: 475px;
-    }
+  .main-image {
+    width: 340px;
+    height: 404px;
+  }
 
-    .main-copy {
-        margin-left: 0.2em;
-        max-width: 425px;
-    }
+  .main-copy {
+    margin-left: 0.2em;
+    max-width: 425px;
+  }
 
-    .contact {
-        margin: 0.5em 0;
-        padding: 0 0.75em;
-        font-size: 1.6em;
-    }
+  .contact {
+    margin: 0.5em 0;
+    padding: 0 0.75em;
+    font-size: 1.2em;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
-    .main-container {
-        margin-left: 10em;
-    }
+  .main-container {
+    margin-left: 10em;
+  }
 
-    .main-copy {
-        margin-left: 1.75em;
-        max-width: 590px;
-    }
+  .main-copy {
+    margin-left: 1.75em;
+    max-width: 590px;
+  }
 }
