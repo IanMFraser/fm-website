@@ -1,12 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Faryal Maroof website" />
-    <meta
-      name="keywords"
-      content="Faryal, Maroof, Faryal Maroof, Digital Communications"
+    <link rel="canonical" href="https://www.faryalmaroof.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Faryal Maroof" />
+    <meta property="og:description" content="Faryal Maroof website" />
+    <meta property="og:url" content="https://www.faryalmaroof.com/" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Faryal Maroof" />
+    <meta name="twitter:description" content="Faryal Maroof website" />
+
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2336454f'/><text x='50' y='68' font-family='Georgia,serif' font-size='46' fill='%23fefefa' text-anchor='middle'>FM</text></svg>"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Faryal Maroof</title>
@@ -18,31 +37,14 @@
       </header>
       <main class="main-container">
         <div class="main-copy col">
-          <p>Thank you for visiting.</p>
-          <p>
-            To learn more about the work that I do at NYC-based nonprofit
-            Concordia, click
-            <span>
-              <a
-                target="_blank"
-                href="https://www.concordia.net/community/fmaroof/"
-                ><strong>here</strong></a
-              ></span
-            >.
-          </p>
-
-          <p>
-            I am an interdisciplinary digital communicator with strong creative
-            and technical skills. In my personal time, my interests tend to
-            center on the arts, reading, and being physically active.
-          </p>
           <div class="contact">
             <script type="text/javascript">
-              emailE = 'gmail.com'
-              emailE = 'faryal.maroof' + '@' + emailE
-              document.write(
-                '<a href="mailto:' + emailE + '">' + 'Contact' + '</a>'
-              )
+              var emailUser = 'faryal.maroof'
+              var emailDomain = 'gmail.com'
+              var contactLink = document.createElement('a')
+              contactLink.href = 'mailto:' + emailUser + '@' + emailDomain
+              contactLink.textContent = 'Contact'
+              document.currentScript.insertAdjacentElement('afterend', contactLink)
             </script>
             <noscript> Email address protected by JavaScript </noscript>
           </div>
